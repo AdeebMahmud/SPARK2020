@@ -13,6 +13,21 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "lodash",
+              "firebase",
+              "@firebase/component",
+              "@firebase/util",
+              "@angular/common/locales/fr",
+              "lodash/dropRight",
+              "@firebase/app",
+              "firebase/app",
+              "@firebase/database",
+              "@firebase/firestore",
+              "@firebase/functions",
+              "@firebase/performance",
+              "@firebase/remote-config"
+            ],
             "outputPath": "dist/therapyapp",
             "index": "src/index.html",
             "main": "src/main.ts",

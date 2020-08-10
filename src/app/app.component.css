@@ -1,0 +1,16 @@
+.rootContainer{
+    display:flex;
+    flex-direction:column;
+    width: 100%;  
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    overflow:hidden;
+    flex:1;
+}
+  .body{
+    display:flex;
+    flex-direction:row;
+    height:100%;
+    flex:9;
+}

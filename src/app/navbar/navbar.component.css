@@ -1,0 +1,15 @@
+.navbar{
+    display:flex;
+    flex-direction:row;
+    flex:1;
+    width:100%;
+    background-color:rgb(77, 77, 77);
+    align-items: center;
+}
+
+.navbar > p{
+    width:10vw;
+    margin-left:1%;
+    font-size:200%;
+    color:rgb(226, 226, 226);
+}

@@ -1,0 +1,43 @@
+/*
+.text-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+}
+
+.form-control{
+
+}
+*/
+ .chatLog{
+    flex:7;
+    border-bottom-style:solid;
+}
+
+.sentText{
+    text-align:right;
+    color:rgb(226, 226, 226);
+    background-color:rgb(59, 228, 73);
+    padding:3%;
+    height:5vh;
+    max-width:50vw;
+}
+ .receivedText{
+    text-align: left;
+    color:rgb(29, 29, 29);
+    background-color:rgb(173, 173, 173);
+    padding:3%;
+    height:5vh;
+    max-width:50vw;
+}
+.typingSlot{
+    flex:1;
+}
+
+.chatContainer{
+    flex:5;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}

@@ -1,0 +1,7 @@
+<p>chat works!</p>
+<!--Reactive Form and SEND button-->
+
+<div class="text-bar">
+    <input type="text" class="form-control" [(ngModel)]="messageBody" placeholder="Send a message">
+    <button class="sendButton" [disabled]="!messageBody" click()="sendMessage()">Send</button>
+</div>
